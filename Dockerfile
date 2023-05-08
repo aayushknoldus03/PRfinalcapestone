@@ -1,6 +1,7 @@
 FROM python:slim
 COPY . .
 
+
 RUN pip install Flask Flask-SQLAlchemy
 
 
