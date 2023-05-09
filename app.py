@@ -8,6 +8,7 @@ engine=create_engine('sqlite:///mydb.db')
 Base.metadata.bind=engine
 session=scoped_session(sessionmaker(bind=engine))
 
+
 app=Flask(__name__)
 def login_required(f):
 	@wraps(f)
