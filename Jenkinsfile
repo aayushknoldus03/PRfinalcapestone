@@ -3,7 +3,7 @@ pipeline {
     stages {
     stage('git clone') {
             steps {
-              git branch: 'main', url: 'https://github.com/aayushknoldus03/PRfinalcapestone'
+              git branch: 'development', url: 'https://github.com/aayushknoldus03/PRfinalcapestone'
             }
         }
         stage('Generating Artificat') {
